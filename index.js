@@ -4,7 +4,7 @@ const cors = require('cors');
 const app = express();
 const mongoose = require('mongoose');
 let bodyParser = require('body-parser')
-let uri = "mongodb+srv://iis_blitz:tnizCAnUiiEEHM6@cluster0.hube4bm.mongodb.net/?retryWrites=true&w=majority"
+let uri =
 
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
